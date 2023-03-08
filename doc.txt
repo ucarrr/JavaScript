@@ -1,1 +1,6 @@
+JS çalışma anında derlenen, dinamik, weakly type bir programlama dilidir.
+WEAKLY TYPE = JS’ te değişkenin tipini söylemek zorunda değiliz  
+
+
 Shift +  alt  A --> commet
+Shift + Alt + Up/Down -->duplicate

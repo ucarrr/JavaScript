@@ -27,6 +27,6 @@ const getSquareVarriableFatArrow = (number) => {
 
 console.log(getSquareVarriableFatArrow(8));
 
-const getSquareVarriableFatArrowShort = number => number * number;
+const getSquareVarriableFatArrowShort = (number) => number * number;
 
-console.log(getSquareVarriableFatArrowShort(9))
+console.log(getSquareVarriableFatArrowShort(9));
