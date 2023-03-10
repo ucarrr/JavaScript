@@ -18,12 +18,13 @@ const addThree = function (number) {
 const arraysOperation = function (arr, func) {
   let tempArr = [];
   for (let i = 0; i < arr.length; i++) {
-    //tempArr[i] = arr[i] + 3;
+   //tempArr[i] = arr[i] + 3;
     tempArr[i] = func(arr[i]);
   }
   console.log(tempArr);
 };
 
+ 
 //Higher order function : parametre olarak fonksiyon alan ve/veya
 //return olarak fonksiyon dödüren fonksiyonlardır
 //arraysOperation higher order fonksiyondur
