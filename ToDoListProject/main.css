@@ -1,0 +1,88 @@
+:root {
+  --main-color: rgba(52, 152, 219, 1);
+  --main-color-light: rgba(52, 152, 219, 0.3);
+  --accent-color: rgba(230, 126, 34, 1);
+  --accent-color-light: rgba(230, 126, 34, 0.6);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--main-color),
+    var(--main-color-light)
+  );
+
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.main-title {
+  font-size: 3rem;
+  color: white;
+}
+.header,
+.task-form {
+  min-height: 20vh; /* ekranın yüzde 20 si kadar */
+
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-item {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: white;
+  outline: none;
+}
+.btn-task-add {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.btn-task-add:hover {
+  color: white;
+  background-color: var(--accent-color);
+}
+.task-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-list {
+  list-style: none;
+  min-width: 40%;
+
+}
+.task-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  background-color: white;
+}
+.task-description {
+  flex: 1;
+  padding: .5rem;
+}
+.task-btn {
+  background-color: var(--accent-color);
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  padding: .9rem;
+}
+.task-btn-delete{
+    background-color: rgb(228, 54, 31);
+}
+.task-completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
