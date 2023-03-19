@@ -67,6 +67,7 @@ body {
   margin: 0.5rem;
   font-size: 1.5rem;
   background-color: white;
+  transition: .5s ease-in-out;
 }
 .task-description {
   flex: 1;
@@ -85,4 +86,10 @@ body {
 .task-completed{
     text-decoration: line-through;
     opacity: 0.5;
+}
+.far{
+  pointer-events: none;
+}
+.lost{
+  transform: scale(0);
 }
