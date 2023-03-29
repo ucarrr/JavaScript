@@ -22,3 +22,6 @@
 .info--error {
   border: 1px solid red;
 }
+.far{
+  pointer-events: none;
+}
