@@ -1,0 +1,66 @@
+:root {
+    --main-color: rgba(52, 152, 219, 1);
+    --main-color-light: rgba(52, 152, 219, 0.3);
+    --accent-color: rgba(230, 126, 34, 1);
+    --accent-color-light: rgba(230, 126, 34, 0.6);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Hind Siliguri", sans-serif;
+    background-image: linear-gradient(
+      to bottom right,
+      var(--main-color),
+      var(--main-color-light)
+    );
+  
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+ 
+  .container {
+    min-height: 20vh; /* ekranın yüzde 20 si kadar */
+
+
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+ 
+ 
+  }
+   
+  .button {
+    background-color: var(--accent-color);
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    padding: .9rem;
+  }
+  .button:hover{
+    color: white;
+    background-color: var(--accent-color);
+  }
+  .block{
+    margin: 1rem;
+   
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .content {
+    padding: 2px 16px;
+  }
