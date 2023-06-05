@@ -1,4 +1,0 @@
-Toplam Ram: 11.87 
-Kullanılan Ram: 5.4799999999999995 
-Free Ram: 6.39 
-Cpu Number: 4
